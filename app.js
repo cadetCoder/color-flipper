@@ -3,5 +3,8 @@ const btn = document.getElementById("btn");
 const colour = document.querySelector(".color");
 
 btn.addEventListener ('click', function () {
-  const randonNumber = 2;
+  // get random number between 0 - 3 colours[3]
+  const randomNumber = 2;
+  document.body.style.backgroundColor = colors[randomNumber];
+  color.textContent = colors[randomNumber];
 })
