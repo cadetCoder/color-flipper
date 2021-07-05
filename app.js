@@ -1,4 +1,4 @@
-const color = document.getElementById('change-button')
+const color = document.getElementById('change-btn')
 const textColor = document.getElementById('change-text')
 const body = document.body;
 
